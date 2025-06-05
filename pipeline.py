@@ -113,8 +113,8 @@ if __name__ == "__main__":
 
     # Print Answer 1: Row Count for patient_enrollment_span.csv
     row_count = len(patient_enrollment_span)
-    print(f"Total rows in patient_enrollment_span: {row_count}")
+    print(f"Answer 1 | Total rows in patient_enrollment_span: {row_count}")
 
     # Print Answer 2: Distinct Count for ct_days_with_outpatient_visit in result.csv
     distinct_count = result['ct_days_with_outpatient_visit'].nunique()
-    print(f"Number of distinct ct_days_with_outpatient_visit: {distinct_count}")
+    print(f"Answer 2 | Number of distinct ct_days_with_outpatient_visit: {distinct_count}")
