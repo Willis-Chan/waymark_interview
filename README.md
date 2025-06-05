@@ -24,3 +24,4 @@ python3 pipeline.py
 - This same exercise could also be done using local Postgres instance and SQL (possibly via dbt core).
 - There is also value in building data validation queries to ensure data quality.
 - If scaling is an issue, we can index before merging, use chunking, or switch to Apache Spark.
+- Add linter (Ruff Linter or Pylint) and run it over my code.
